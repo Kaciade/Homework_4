@@ -9,10 +9,10 @@ int evenNumbers = 0;
 int oddNumbers = 0;
 
 for (int i = 0; i < array.Length; i++) array[i] = random.Next(100, 1000);
-for (int j = 0; j < array.Length; j++) Console.Write($"| {array[j]} ");
-for (int y = 0; y < array.Length; y++)
+for (int i = 0; i < array.Length; i++) Console.Write($"| {array[i]} ");
+for (int i = 0; i < array.Length; i++)
 {
-    if (array[y]%2 == 0) evenNumbers++;
+    if (array[i]%2 == 0) evenNumbers++;
     else oddNumbers++;
 }
 

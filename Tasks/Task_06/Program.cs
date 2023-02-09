@@ -15,3 +15,6 @@ for (int i = 0; i < array.Length; i++) array[i] = random.Next(min, max);
 Console.WriteLine();
 for (int i = 0; i < array.Length; i++) Console.Write($"{array[i]}\t");
 Console.WriteLine();
+int difference = array.Max() - array.Min();
+Console.WriteLine($"Минимальное значение массива {array.Min()}, максимальное значение массива {array.Max()}");
+Console.WriteLine($"Разница между минимальным и максимальным значениями массива составляет {difference}");

@@ -25,5 +25,5 @@ for (int i = 0; i < stop; i++)
 if (array.Length % 2 > 0)
 {
     int result2 = array[stop+1] * array[stop+1];
-    Console.WriteLine($"{stop+1} элемент массива равен {array[stop]}");
+    Console.WriteLine($"{stop+1} элемент массива не имеет пары");
 }

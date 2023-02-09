@@ -15,7 +15,7 @@ Console.WriteLine();
 for (int i = 0; i < array.Length; i++) Console.Write($"{array[i]}\t");
 for (int i = 0; i < array.Length; i++)
 {
-    if (array[i]%2 == 0) oddSum = oddSum + array[i];
+    if (i%2 > 0) oddSum = oddSum + array[i];
 }
 
-Console.WriteLine($"\nСумма всех нечётных элементов массива равна {oddSum}");
+Console.WriteLine($"\nСумма всех элементов массива, стоящих на нечетной позиции, равна {oddSum}");
